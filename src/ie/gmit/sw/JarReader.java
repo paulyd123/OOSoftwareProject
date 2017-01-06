@@ -47,7 +47,7 @@ public class JarReader {
 				} 
 				catch (ClassNotFoundException e) {
 					System.out.println("Couldn't find class '" + name + "'");
-					//System.exit(0);
+					System.exit(0);
 				} 
 				 System.out.println(cls.size());
 			}
