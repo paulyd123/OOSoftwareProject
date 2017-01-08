@@ -42,7 +42,7 @@ public class JarReader {
 				try {
 					queryClass = Class.forName(name, false, cl);
 					cls.add(queryClass);
-					new Reflection(queryClass);
+					//new Reflection(queryClass);
 					//System.exit(0);
 				} 
 				catch (ClassNotFoundException e) {
