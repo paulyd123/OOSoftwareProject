@@ -7,7 +7,8 @@ public class Metric {
 
 	private int inDegree;
 	private int outDegree;
-
+	
+	//Gets and sets for inDegree and outDegree
 	public int getInDegree() {
 		return inDegree;
 	}
@@ -26,6 +27,7 @@ public class Metric {
 		
 		if(outDegree <= 0){
 			
+			//Calculating stability
 			stability = ((float)outDegree / (float)inDegree + (float)outDegree);
 			
 		}
