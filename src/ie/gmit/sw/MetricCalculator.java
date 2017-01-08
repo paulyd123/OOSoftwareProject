@@ -9,6 +9,12 @@ import java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 
+/**
+ * 
+* @author Paul Dolan - G00297086
+* Metric calculator class 
+*/
+
 public class MetricCalculator {
 
 
@@ -41,15 +47,22 @@ public class MetricCalculator {
 	//Calculates Metric
 	public void calculateMetric(){
 		try {
+			
+			//Gets handle on jar file
 			File file  = new File(jar);
+			
+			//Creates a URL to file
 			URL url = file.toURI().toURL();
 			URL[] urls = new URL[]{url};
 
+			//Loads classes from jar file
 			ClassLoader cl = new URLClassLoader(urls);
 
+			
 			for(String name : graph.keySet()){
 				
-			Class queryClass = Class.forName(name, false, cl);//cl loads data
+			//Loads class information	
+			Class queryClass = Class.forName(name, false, cl);
 			System.out.println(name);
 			new Reflection(queryClass);
 			}

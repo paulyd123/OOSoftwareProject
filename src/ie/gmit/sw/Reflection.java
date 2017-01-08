@@ -2,6 +2,10 @@ package ie.gmit.sw;
 
 import java.lang.reflect.*;
 
+/**
+* @author Paul Dolan - G00297086
+* This class gets the details of the classes from jar file using Reflection
+*/
 
 public class Reflection {
 

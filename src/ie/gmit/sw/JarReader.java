@@ -11,18 +11,32 @@ import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 
+/** 
+* @author Paul Dolan - G00297086
+* This class takes in a jar file and reads the classes
+*/
 
 
 public class JarReader {
 
 	List<Class> cls = new ArrayList<Class>();
 
+	//Empty constructor
 	public JarReader() {}
+	
+	/**
+	 * Retrieves jar from specified jar
+	 * @throws FileNotFoundException
+	 * @throws IOException
+	 */
 
 	
 	public void readJarFile(String jarFile) throws FileNotFoundException, IOException{
-
+		
+		//Gets handle on jar file
 		File file  = new File(jarFile);
+		
+		//Creates a URL to file
         URL url = file.toURI().toURL();
         URL[] urls = new URL[]{url};
 

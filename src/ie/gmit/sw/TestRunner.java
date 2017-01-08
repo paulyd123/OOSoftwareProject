@@ -3,6 +3,12 @@ package ie.gmit.sw;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+/**
+ * 
+* @author Paul Dolan - G00297086
+*  TestRunner class to test functionality
+*/
+
 public class TestRunner {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
