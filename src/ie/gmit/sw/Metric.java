@@ -28,17 +28,20 @@ public class Metric {
 		this.outDegree = outDegree;
 	}
 
-	public float getStability(){
+	public double getStability(){
 		float stability = 1f;
 		
 		//If outDegree is greater than 0
 		if(outDegree <= 0){
 			
 			//Calculating stability
-			stability = ((float)outDegree / (float)inDegree + (float)outDegree);
-			
+			stability = ((float)getOutDegree() /( (float)getInDegree() + (float)getOutDegree()));
 		}
+		else{
+			stability = 0f;
+		}
+		return Math.round(stability * 100d) / 100d;
 		//Returns stability
-		return stability;
+		//return stability;
 	}	
 }
