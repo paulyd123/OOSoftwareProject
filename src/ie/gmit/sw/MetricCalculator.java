@@ -41,7 +41,7 @@ public class MetricCalculator {
 			System.out.println(jarClass.get(i).getName());
 		}
 		System.out.println(graph.keySet());
-		System.out.println("sixe" + graph.size());
+		System.out.println("size" + graph.size());
 	}
 
 	//Calculates Metric
@@ -70,5 +70,7 @@ public class MetricCalculator {
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		
 	}
 }
