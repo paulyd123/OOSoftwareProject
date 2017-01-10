@@ -91,7 +91,7 @@ public class AppWindow {
 					// create the summary
                     as = new AppSummary(frame, true);
 
-                    // get handle on summary table model
+                    //Gets handle on summary table model
                     TypeSummaryTableModel tm = as.getTableModel();
 
                     // add metric data into table model
@@ -100,7 +100,7 @@ public class AppWindow {
 					e.printStackTrace();
 				}
 			
-			 // make the dialog visible
+			 //Makes the dialog visible
             as.setVisible(true);
 			}
             else {
