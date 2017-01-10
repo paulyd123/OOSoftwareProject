@@ -1,11 +1,17 @@
 
 *******Measuring Stability Using the Reflection API*********
-
+============================================================
 Student Name: Paul Dolan
 Student ID: G00297086
 Module: Advanced Object-Oriented Design Principles & Patterns
 Lecturer: John Healy
 Course: Software Development
+=============================================================
 
 
-
+Overview
+=============================================================
+This application uses a Reflection API which calculates the stability of every class within the JAR file.
+By using the Efferent and Afferent couplings of each class, the stability is calculated.
+To find the dependencies of the classes, the Reflection API is used.
+I used the Swing library provided to us to design the GUI.
