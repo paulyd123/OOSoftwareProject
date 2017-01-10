@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="ie.gmit.sw.AppWindow" project="OOSoftwareProject" 
     file="/OOSoftwareProject/src/ie/gmit/sw/AppWindow.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="325" y="22"/>    
+    <position height="-1" width="-1" x="366" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="ie.gmit.sw.JarReader" project="OOSoftwareProject" 
     file="/OOSoftwareProject/src/ie/gmit/sw/JarReader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="543" y="347"/>    
+    <position height="-1" width="-1" x="1018" y="437"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="ie.gmit.sw.Metric" project="OOSoftwareProject" 
     file="/OOSoftwareProject/src/ie/gmit/sw/Metric.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="315" y="275"/>    
+    <position height="-1" width="-1" x="597" y="155"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="ie.gmit.sw.MetricCalculator" project="OOSoftwareProject" 
     file="/OOSoftwareProject/src/ie/gmit/sw/MetricCalculator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="722" y="179"/>    
+    <position height="-1" width="-1" x="1017" y="125"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,8 +48,8 @@
   </class>  
   <class id="6" language="java" name="ie.gmit.sw.TestRunner" project="OOSoftwareProject" 
     file="/OOSoftwareProject/src/ie/gmit/sw/TestRunner.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="939" y="320"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="163" width="232" x="421" y="352"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="ie.gmit.sw.TypeSummaryTableModel" project="OOSoftwareProject" 
     file="/OOSoftwareProject/src/ie/gmit/sw/TypeSummaryTableModel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="182" width="170" x="843" y="-45"/>    
+    <position height="182" width="170" x="34" y="327"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
