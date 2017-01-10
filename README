@@ -15,3 +15,12 @@ This application uses a Reflection API which calculates the stability of every c
 By using the Efferent and Afferent couplings of each class, the stability is calculated.
 To find the dependencies of the classes, the Reflection API is used.
 I used the Swing library provided to us to design the GUI.
+
+Deployment
+=============================================================
+-Install java 8
+-Open Eclipse
+-Run program
+-Select JAR file when asked 
+-Select Calculate Stability
+-A new window will appear with the class name, inDegree, outDegree and stability.
